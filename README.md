@@ -20,7 +20,12 @@
 
 ## 安装
 
-1. 克隆或下载本仓库到本地。
+1. 克隆仓库：
+
+   ```bash
+   git clone https://github.com/MoreAmmonia/dsh-goofish-gpu-market.git
+   ```
+
 2. 在 DSH 中打开 **设置 → 插件管理**，选择“从本地目录安装”，指向本仓库根目录。
    也可以让 Agent 执行：
 

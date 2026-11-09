@@ -13,6 +13,14 @@
     "gpu",
     "zhihu"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoreAmmonia/dsh-goofish-gpu-market.git"
+  },
+  "homepage": "https://github.com/MoreAmmonia/dsh-goofish-gpu-market",
+  "bugs": {
+    "url": "https://github.com/MoreAmmonia/dsh-goofish-gpu-market/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",
