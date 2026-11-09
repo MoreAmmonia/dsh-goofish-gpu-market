@@ -1,0 +1,35 @@
+{
+  "name": "dsh-goofish-gpu-market",
+  "version": "1.0.0",
+  "description": "DSH Host tools for searching Xianyu (Goofish) listings, checking prices and details, and reading the Zhihu GPU Daily market report.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "xianyu",
+    "goofish",
+    "gpu",
+    "zhihu"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

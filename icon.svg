@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Goofish listings and GPU price chart">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#123B5A"/>
+    </linearGradient>
+    <linearGradient id="fish" x1="18" y1="42" x2="80" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="22" fill="url(#bg)"/>
+  <path d="M22 30 L36 21 L48 26 L60 13 L74 18" fill="none" stroke="#FBBF24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="22" cy="30" r="3" fill="#FBBF24"/>
+  <circle cx="74" cy="18" r="3" fill="#FBBF24"/>
+  <path d="M16 58 C29 42 55 40 67 53 L82 42 L77 58 L82 74 L67 63 C55 76 29 74 16 58 Z" fill="url(#fish)"/>
+  <circle cx="33" cy="54" r="2.8" fill="#0B1220"/>
+  <path d="M43 58 C49 62 55 62 61 58" fill="none" stroke="#0B1220" stroke-width="2.2" stroke-linecap="round" opacity="0.55"/>
+</svg>

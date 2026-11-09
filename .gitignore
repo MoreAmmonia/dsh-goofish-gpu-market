@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 本地闲鱼登录凭据，永远不要提交
+xianyu-cookie.txt
+*.cookie
+cookie*.txt
